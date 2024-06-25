@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.eduforall.EduForAllApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.168 s <<< FAILURE! - in com.eduforall.EduForAllApplicationTests
+contextLoads  Time elapsed: 0.028 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@39bbd9e0 testClass = com.eduforall.EduForAllApplicationTests, locations = [], classes = [com.eduforall.EduForAllApplication], contextInitializerClasses = [], activeProfiles = [], propertySourceLocations = [], propertySourceProperties = ["org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true"], contextCustomizers = [org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@a38c7fe, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@52719fb6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@20140db9, org.springframework.boot.test.autoconfigure.actuate.observability.ObservabilityContextCustomizerFactory$DisableObservabilityContextCustomizer@9da1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@470734c3, org.springframework.boot.test.context.SpringBootTestAnnotation@b2fce02d], resourceBasePath = "src/main/webapp", contextLoader = org.springframework.boot.test.context.SpringBootContextLoader, parent = null]
+Caused by: java.lang.TypeNotPresentException: Type javax.servlet.http.HttpServletRequest not present
+Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServletRequest
+
